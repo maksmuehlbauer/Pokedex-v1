@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <script src="html.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body id="body" onload="loadPokedex(1)">
+    <header class="header-pokedex">
+        <a href="index.html"><img src="./img/logo.png"></a>
+        <input id="user-input" type="text" placeholder="type pokemon id or name" onkeyup="searchPokemon()">
+        <h5>Pokedex V1.0</h5>
+    </header>
+    
+    <div class="width">    
+        <!-- <p class="title">Pokedex</p> -->
+        <div id="show-all-pokemon">
+        
+
+        </div>
+    </div>
+</body>
+</html>

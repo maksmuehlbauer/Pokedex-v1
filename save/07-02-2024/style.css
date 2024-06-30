@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#pokedex {
+    display: flex;
+    min-height: 50vh;
+    background-color: #46D1B1;
+    color: white;
+    padding: 48px 32px 0 32px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.general-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+#type {
+    display: flex;
+}
+
+#type div {
+    padding: 4px 12px;
+    margin: 8px 8px 0 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#pokedex img {
+    margin: 32px 0 0 0;
+    width: 75%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.poke-img-cnt {
+    display: flex;
+    justify-content: center;
+}
+
+#stats-container {
+    /* overflow: hidden; */
+    background-color: white;
+    height: 50vh;
+    margin: -56px 0 0 0;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.flex-box {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header {
+    padding: 48px 32px 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#stats-overview {
+    margin: 16px 0 32px 32px;
+    /* border: 1px solid lightgray; */
+    width: 90%;
+}
+
+.percent {
+    border: 1px solid black;
+    width: 100px;
+}
+
+.move-table{
+    width: 100%;
+}
+
+.move-table th {
+    text-align: left;
+    padding: 0 0 12px 0;
+}
+
+.move-table th:first-child{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.move-table td {
+    padding: 8px 0 8px 0;
+
+}
+
+.move-table td:first-child {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    padding: 0 32px 0 0;
+}
+
+.move-table td:nth-child(2), .move-table td:nth-child(3) {
+    text-transform: capitalize;
+}
+
+.move-table td:nth-child(3), .move-table th:nth-child(3) {
+    padding-left: 48px;
+}
+
+.stats-table td {
+    padding: 8px 32px 8px 0;
+}
+
+.stats-table td:first-child {
+    padding-left: 0;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+.stats-table td:nth-child(2) {
+    text-transform: capitalize;
+}
+
+.about-table td:first-child {
+    padding-right: 72px;
+}
+
+.normal-stats {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.highlight-stats {
+    color: black;
+    font-weight: 700;
+    text-decoration-thickness: 3px;
+    border-bottom: 2px solid blue;
+    padding: 0 0 16px;
+}
+
+.scroll-container {
+    max-height: calc(50vh - 133px);
+    overflow: auto;
+}
+
+#names-table td:first-child {
+    padding-right: 72px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+#names-table th {
+    text-align: left;
+    padding: 0 0 12px 0;
+}
+
+#names-table th:first-child {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#names-table td {
+    padding: 8px 32px 8px 0;
+}
+
+#pokemon-index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+
+#user-input {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+#pokemon-cards-container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokemon-card {
+    color: white;
+    background-color: blue;
+    width: 340px;
+    height: 225px;
+    margin: 8px;
+    border-radius: 16px;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.pokemon-card img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.quick-info {
+align-self: flex-start;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h1 {
+    padding: 8px 0;
+}
+
+.allTypes {
+    display: table;
+    padding: 8px 24px;
+    margin: 8px 8px 0 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+

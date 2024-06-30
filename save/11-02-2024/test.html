@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: flex;
+        }
+
+        header div {
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        header div:focus {
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="about" class="normal-stats" onclick="renderAbout()">About</div>
+        <div id="base-stats" class="normal-stats" onclick="baseStats()">Base Stats</div>
+        <div id="evolution" class="normal-stats">Evolution</div>
+        <div id="moves" class="normal-stats">Moves</div>
+    </header>
+</body>
+</html>
